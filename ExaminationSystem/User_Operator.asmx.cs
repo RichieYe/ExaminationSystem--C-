@@ -190,6 +190,33 @@ namespace ExaminationSystem
         }
 
         [WebMethod]
+        public string CheckStudentNoForNo(string strNo)
+        {
+            string strSql = "select * from tb_Student where No=@No";
+            SqlParameter[] parameters = {
+                new SqlParameter("@No",SqlDbType.VarChar,20)
+            };
+            parameters[0].Value = strNo;
+
+            DataSet ds = helper.RunProcReturn(strSql, parameters, "tb_Student");
+
+            Flags flag = new Flags();
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                flag.Flag = "Yes";
+            }
+            else
+            {
+                flag.Flag = "No";
+            }
+
+            List<Flags> list = new List<Flags>();
+            list.Add(flag);
+
+            return GetToJSon(list);
+        }
+
+        [WebMethod]
         public string Login(string UserName,string No,int CId,string Password)
         {
             string strSql = "select * from tb_Student where UserName=@UserName and No=@No and CId=@CID and password=@Password";

@@ -61,7 +61,9 @@
     <Content Include="Choice_Operator.asmx" />
     <Content Include="Classes_Operator.asmx" />
     <Content Include="Completion_Operator.asmx" />
-    <Content Include="Default.aspx" />
+    <Content Include="CSS\mainSheet.css" />
+    <Content Include="Default .aspx" />
+    <Content Include="Default1.aspx" />
     <Content Include="Judgment_Operator.asmx" />
     <Content Include="MultiChoice_Operator.asmx" />
     <Content Include="Program_Operator.asmx" />
@@ -103,12 +105,19 @@
       <DependentUpon>Completion_Operator.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Default .aspx.cs">
+      <DependentUpon>Default .aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Default .aspx.designer.cs">
+      <DependentUpon>Default .aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default1.aspx.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default1.aspx.designer.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Judgment_Operator.asmx.cs">
       <DependentUpon>Judgment_Operator.asmx</DependentUpon>
