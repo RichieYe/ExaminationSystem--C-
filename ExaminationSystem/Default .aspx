@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default .aspx.cs" Inherits="ExaminationSystem.Default1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default .aspx.cs" Inherits="ExaminationSystem.Default" %>
 
 <!DOCTYPE html>
 

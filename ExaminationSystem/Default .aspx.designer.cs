@@ -10,7 +10,7 @@
 namespace ExaminationSystem {
     
     
-    public partial class Default1 {
+    public partial class Default {
         
         /// <summary>
         /// form1 控件。
