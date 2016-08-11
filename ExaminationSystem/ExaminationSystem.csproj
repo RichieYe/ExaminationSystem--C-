@@ -61,12 +61,18 @@
     <Content Include="Choice_Operator.asmx" />
     <Content Include="Classes_Operator.asmx" />
     <Content Include="Completion_Operator.asmx" />
+    <Content Include="CSS\loginsheet.css" />
     <Content Include="CSS\mainSheet.css" />
-    <Content Include="Default .aspx" />
-    <Content Include="Default1.aspx" />
+    <Content Include="Default2.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\login-bg.jpg" />
     <Content Include="Judgment_Operator.asmx" />
     <Content Include="MultiChoice_Operator.asmx" />
     <Content Include="Program_Operator.asmx" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Testing_Operator.asmx" />
     <Content Include="UserScore_Operator.asmx" />
     <Content Include="UserTest_Operator.asmx" />
@@ -105,19 +111,19 @@
       <DependentUpon>Completion_Operator.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Default .aspx.cs">
-      <DependentUpon>Default .aspx</DependentUpon>
+    <Compile Include="Default2.aspx.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default .aspx.designer.cs">
-      <DependentUpon>Default .aspx</DependentUpon>
+    <Compile Include="Default2.aspx.designer.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default1.aspx.cs">
-      <DependentUpon>Default1.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default1.aspx.designer.cs">
-      <DependentUpon>Default1.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Judgment_Operator.asmx.cs">
       <DependentUpon>Judgment_Operator.asmx</DependentUpon>
@@ -159,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

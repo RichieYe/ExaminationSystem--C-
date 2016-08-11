@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default1.aspx.cs" Inherits="ExaminationSystem.Default" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default2.aspx.cs" Inherits="ExaminationSystem.Default" %>
 
 <!DOCTYPE html>
 
@@ -58,7 +59,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
     <div>
         <h1 style="text-align: center">在线考试系统</h1>
         <hr />
